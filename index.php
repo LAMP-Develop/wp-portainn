@@ -48,7 +48,6 @@ if (has_post_thumbnail()) {
 }
 ?>
 <div class="room">
-<a href="<?php echo get_the_permalink(); ?>">
 <div class="img">
 <img src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl; ?>">
 </div>
@@ -57,7 +56,6 @@ if (has_post_thumbnail()) {
 <p><?php echo $content; ?></p>
 <p>room size ｜ <?php echo get_post_meta($id, 'size', true); ?>㎡</p>
 </div>
-</a>
 </div><!-- /.room -->
 <?php endforeach; endif; wp_reset_postdata(); ?>
 </div>
