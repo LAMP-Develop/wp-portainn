@@ -18,7 +18,6 @@ get_header(); ?>
 </div>
 </div>
 
-<div class="wrap">
 
 <?php
 // Start the loop.
@@ -31,6 +30,5 @@ the_content();
 endwhile;
 ?>
 
-</div><!-- .wrap -->
 
 <?php get_footer();
