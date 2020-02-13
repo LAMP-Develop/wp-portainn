@@ -67,7 +67,7 @@ $wp_url = get_template_directory_uri();
 </div>
 
 <div class="fixBtn btn btn-white">
-<a target="_blank" href="<?php echo $home; ?>/search/"><i class="fas fa-chevron-circle-right"></i>
+<a target="_blank" href="https://portainn.jp/search/"><i class="fas fa-chevron-circle-right"></i>
 <?php if ('en_US' == $locale) { ?>
 <span>Search</span>
 <?php } elseif ('ko_KR' == $locale) { ?>
