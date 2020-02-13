@@ -514,7 +514,14 @@ em {
 }
 
 #openMenu ul.sub-menu li.sp-lang.open li {
-  background: #68392f
+  background: #fff
+}
+
+#openMenu ul.sub-menu li.sp-lang.open li a {
+  color: #000;
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 #openMenu .menu-global-container {
@@ -847,36 +854,14 @@ address.cr {
     margin: 0 auto 40px
   }
 
-  .ttl-bloc h2 {
-    display: block;
-    width: 100%;
-    font-size: 50px;
-    margin: 0 0 20px
-  }
-
-  .ttl-bloc h2:first-letter {
-    font-size: 70px
-  }
-
-  .ttl-bloc h2:after {
-    margin: 10px 0 0
-  }
-
   .ttl-bloc p {
     display: block;
-    width: 100%
+    width: 100%;
+    margin-top: 1rem;
   }
 }
 
 @media(max-width:481px) {
-  .ttl-bloc h2 {
-    font-size: 26px
-  }
-
-  .ttl-bloc h2:first-letter {
-    font-size: 42px
-  }
-
   .btn {
     width: 100%
   }
@@ -978,8 +963,6 @@ address.cr {
   font-size: .875rem;
   line-height: 3;
 }
-
-.index-room {}
 
 .index-room .inner {
   width: 92%;
@@ -1258,14 +1241,6 @@ address.cr {
     padding: .8rem;
   }
 
-  .index-concept h2 {
-    font-size: 50px
-  }
-
-  .index-concept h2:first-letter {
-    font-size: 70px
-  }
-
   .index-kv .txt {
     left: 1.5rem;
     bottom: 3rem;
@@ -1290,18 +1265,6 @@ address.cr {
   .index-concept .bloc {
     width: 100%;
     margin: 0
-  }
-
-  .index-concept h2 {
-    font-size: 30px
-  }
-
-  .index-concept h2:first-letter {
-    font-size: 50px
-  }
-
-  .index-concept h2:after {
-    margin: 0 0 40px
   }
 
   .index-concept h3 {
@@ -1353,6 +1316,14 @@ address.cr {
   .index-news ul.news-topics li {
     display: block;
     width: 100%
+  }
+
+  .index-concept .inner p {
+    text-align: left;
+  }
+
+  .index-concept .inner p br {
+    display: none;
   }
 }
 

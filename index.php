@@ -62,7 +62,7 @@ if (has_post_thumbnail()) {
 <?php endforeach; endif; wp_reset_postdata(); ?>
 </div>
 <div class="btn">
-<a href="#"><i class="fas fa-chevron-circle-right"></i>全ての客室を見る</a>
+<a href="<?php echo $home; ?>/room/"><i class="fas fa-chevron-circle-right"></i>全ての客室を見る</a>
 </div>
 </div>
 </div><!-- /.index-room -->
@@ -342,12 +342,12 @@ if (has_post_thumbnail()) {
 
 <div class="index-access">
 <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3281.398282677254!2d135.460927889801!3d34.66989613861178!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91cd393639f4ea00!2zUE9SVEEgSU5O772c44Od44Or44K_44Kk44Oz5byB5aSp55S6!5e0!3m2!1sja!2sjp!4v1558454559721!5m2!1sja!2sjp" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.178313802778!2d135.4727088147338!3d34.67544884207879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e64c389873ff%3A0xe9ceadd0d21a8901!2z44CSNTUwLTAwMjcg5aSn6Ziq5bqc5aSn6Ziq5biC6KW_5Yy65Lmd5p2h77yR5LiB55uu77yR77yT!5e0!3m2!1sja!2sjp!4v1581582025028!5m2!1sja!2sjp" allowfullscreen></iframe>
 </div>
 <div class="info">
 <p>〒550-0027　大阪市西区九条1-13<br>TEL：(06)06-6583-3710</p>
 <p>大阪メトロ中央線九条駅⑥番出口徒歩1分<br>阪神電車なんば線九条駅①番出口徒歩３分</p>
-<p class="btn-view"><a href="https://goo.gl/maps/maNC8dx1zTkcw1kB8" target="_blank">GoogleMAPで見る</a></p>
+<p class="btn-view"><a href="https://goo.gl/maps/VAiYUyQJeLmuTeJp6" target="_blank">GoogleMAPで見る</a></p>
 </div>
 </div><!-- /.index-access -->
 
