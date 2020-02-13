@@ -15,19 +15,6 @@ get_header(); ?>
 
 <div class="kv" id="kv-<?php echo get_post($wp_query->post->ID)->post_name; ?>">
 <div class="inner-kv">
-<h2 class="eng">
-<?php
-if( is_page('facilities') ): echo('FACILITIES');
-elseif( is_page('access') ): echo('ACCESS');
-elseif( is_page('contact') ): echo('CONTACT');
-endif;
-?>
-</h2>
-<?php if ('en_US' == $locale  ) { ?>
-<?php }else{ ?>
-<hr>
-<p><?php the_title(); ?></p>
-<?php } ?>
 </div>
 </div>
 
