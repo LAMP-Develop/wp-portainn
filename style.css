@@ -560,6 +560,10 @@ em {
   text-decoration: none
 }
 
+#openMenu ul.menu li:last-child {
+  margin-top: 2rem;
+}
+
 #openMenu ul.menu li.btn-seach, #openMenu ul.menu li:last-child {
   border: 0;
   padding: 0
@@ -574,7 +578,7 @@ em {
   text-align: center
 }
 
-#openMenu ul.menu li.btn-seach a:before, #openMenu ul.menu li:last-child a:before {
+#openMenu ul.menu li.btn-seach a:before {
   content: '';
   display: inline-block;
   width: 32px;
@@ -585,7 +589,7 @@ em {
   vertical-align: middle
 }
 
-#openMenu ul.menu li.btn-seach a:after, #openMenu ul.menu li:last-child a:after {
+#openMenu ul.menu li.btn-seach a:after {
   content: '';
   display: block;
   width: 0;

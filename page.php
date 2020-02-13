@@ -29,6 +29,5 @@ the_content();
 // End of the loop.
 endwhile;
 ?>
-
 <?php get_template_part('foot-link'); ?>
 <?php get_footer();
