@@ -30,5 +30,5 @@ the_content();
 endwhile;
 ?>
 
-
+<?php get_template_part('foot-link'); ?>
 <?php get_footer();
