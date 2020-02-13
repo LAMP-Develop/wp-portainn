@@ -39,7 +39,7 @@ $wp_url = get_template_directory_uri();
 <div id="wrapper">
 <header id="hd">
 <div class="inner-hd">
-<h1><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1>
+<h1><a href="<?php echo $home; ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1>
 <ul>
 <li class="lang"><span class="eng">LANGUAGE</span>
 <?php echo do_shortcode('[bogo]'); ?>
