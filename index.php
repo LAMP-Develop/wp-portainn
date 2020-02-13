@@ -345,7 +345,7 @@ if (has_post_thumbnail()) {
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.178313802778!2d135.4727088147338!3d34.67544884207879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e64c389873ff%3A0xe9ceadd0d21a8901!2z44CSNTUwLTAwMjcg5aSn6Ziq5bqc5aSn6Ziq5biC6KW_5Yy65Lmd5p2h77yR5LiB55uu77yR77yT!5e0!3m2!1sja!2sjp!4v1581582025028!5m2!1sja!2sjp" allowfullscreen></iframe>
 </div>
 <div class="info">
-<p>〒550-0027　大阪市西区九条1-13<br>TEL：(06)06-6583-3710</p>
+<p>〒550-0027　大阪市西区九条1-13<br>TEL：06-6581-5000</p>
 <p>大阪メトロ中央線九条駅⑥番出口徒歩1分<br>阪神電車なんば線九条駅①番出口徒歩３分</p>
 <p class="btn-view"><a href="https://goo.gl/maps/VAiYUyQJeLmuTeJp6" target="_blank">GoogleMAPで見る</a></p>
 </div>
