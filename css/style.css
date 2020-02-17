@@ -97,6 +97,7 @@
 .rooms-archive .info .facility table th {
   font-weight: normal;
   text-align: left;
+  width: 20%
 }
 
 .rooms-archive .info .facility table th,
@@ -111,6 +112,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  align-items: center;
 }
 
 .hall-equipment>div {
@@ -130,13 +132,15 @@
 
 .hall-equipment>div.txt p {
   font-size: .875rem;
-  color: #B2B2B2;
+}
+
+.hall-equipment>div.txt h4 {
+  margin-top: 1rem;
 }
 
 .hall-equipment>div.txt ul {
   box-sizing: border-box;
   padding-left: 1.5rem;
-  margin-top: 1rem;
 }
 
 .hall-equipment>div.txt ul li {
@@ -146,6 +150,25 @@
 
 .hall-equipment>div.img {
   text-align: right;
+}
+
+.fitness {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.fitness>div,.fitness img {
+  width: 48%
+}
+
+.fitness h3 {
+  font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
 }
 
 .other-appearance,
@@ -220,7 +243,7 @@
 }
 
 .cars>div {
-  width: 33.33333%;
+  width: 50%;
   box-sizing: border-box;
   text-align: center;
   border: solid 1px #707070;
@@ -284,6 +307,14 @@
   .hall-equipment>div.txt {
     padding: 0;
     margin-bottom: 1.5rem;
+  }
+
+  .fitness>div,.fitness img {
+    width: 100%
+  }
+
+  .fitness img {
+    margin-bottom: 1rem
   }
 
   .other-appearance .content {

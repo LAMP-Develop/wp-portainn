@@ -69,7 +69,7 @@ if (has_post_thumbnail()) {
 <div class="inner">
 <div class="ttl-bloc">
 <h2 class="eng"><span>周辺施設</span></h2>
-<p>PORTA INN九条レジデンスの周辺には様々な施設がございます。<br>市内中心部へのアクセスにも便利な立地です。</p>
+<p>当館周辺にはコンビニや商店街、飲食店があり、<br>ご滞在中の利便性をより一層引き上げます。</p>
 </div>
 </div>
 <ul class="slide-near">
@@ -108,7 +108,7 @@ if (has_post_thumbnail()) {
 <div class="inner">
 <div class="ttl-bloc">
 <h2 class="eng"><span>館内案内</span></h2>
-<p>PORTA INN九条レジデンスの<br>館内をご紹介いたします。</p>
+<p>システムキッチン、大型冷蔵庫、ドラム型乾燥機付コインランドリー（一部）を設置し、<br>マンションタイプならではのバスルームとトイレはセパレートです。</p>
 </div>
 <div class="view">
 <div><iframe src="https://www.google.com/maps/embed?pb=!4v1562040010529!6m8!1m7!1sCAoSLEFGMVFpcFB6ZWkwMHlENUd6b0ROYVplcnFxOWVvcG4ybnRYdkF1VS1HTS1a!2m2!1d34.669894193236!2d135.46309258115!3f13.436730133372464!4f-5.955435915357995!5f0.7820865974627469" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
@@ -343,7 +343,7 @@ if (has_post_thumbnail()) {
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.178313802778!2d135.4727088147338!3d34.67544884207879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e64c389873ff%3A0xe9ceadd0d21a8901!2z44CSNTUwLTAwMjcg5aSn6Ziq5bqc5aSn6Ziq5biC6KW_5Yy65Lmd5p2h77yR5LiB55uu77yR77yT!5e0!3m2!1sja!2sjp!4v1581582025028!5m2!1sja!2sjp" allowfullscreen></iframe>
 </div>
 <div class="info">
-<p>〒550-0027　大阪市西区九条1-13<br>TEL：06-6581-5000</p>
+<p>〒550-0027　大阪市西区九条1-13-22<br>TEL：06-6581-5000</p>
 <p>大阪メトロ中央線九条駅⑥番出口徒歩1分<br>阪神電車なんば線九条駅①番出口徒歩３分</p>
 <p class="btn-view"><a href="https://goo.gl/maps/VAiYUyQJeLmuTeJp6" target="_blank">GoogleMAPで見る</a></p>
 </div>
