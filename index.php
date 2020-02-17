@@ -12,8 +12,16 @@ get_header();
 $locale = get_locale(); ?>
 <div class="index-kv">
 <div class="txt">
-<p>レジャー、<br>ビジネスの拠点に。</p>
-<h1>大阪メトロ中央線・阪神電車で本町、難波、海遊館へ直結</h1>
+<p><span>「暮せるホテル」</span>
+<br>ポルタイン九条レジデンス
+<br><span class="eng">Portainn Kujou Residencs</span></p>
+<p>2020年　　月　　日<br class="sp-only">グランドオープン</p>
+<p>大阪メトロ中央線「九条駅」⑥番出口　徒歩1分</p>
+<h1>1泊はもちろん長期滞在にも最適なレジデンス仕様。大阪ベイエリア（USJ・海遊館）や京セラドーム大阪のコンサート＆イベント、レジャー利用に。
+<br class="sp-only">また中央線「本町駅」まで2駅（８分）とビジネスの拠点にも最適。
+</h1>
+<!-- <p>レジャー、<br>ビジネスの拠点に。</p> -->
+<!-- <h1>大阪メトロ中央線・阪神電車で本町、難波、海遊館へ直結</h1> -->
 </div>
 <div class="slide-kv">
 <div class="slide-view slide01"></div>
@@ -111,7 +119,7 @@ if (has_post_thumbnail()) {
 <p>システムキッチン、大型冷蔵庫、ドラム型乾燥機付コインランドリー（一部）を設置し、<br>マンションタイプならではのバスルームとトイレはセパレートです。</p>
 </div>
 <div class="view">
-<div><iframe src="https://www.google.com/maps/embed?pb=!4v1562040010529!6m8!1m7!1sCAoSLEFGMVFpcFB6ZWkwMHlENUd6b0ROYVplcnFxOWVvcG4ybnRYdkF1VS1HTS1a!2m2!1d34.669894193236!2d135.46309258115!3f13.436730133372464!4f-5.955435915357995!5f0.7820865974627469" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<div><iframe src="https://www.google.com/maps/embed?pb=!4v1562040010529!6m8!1m7!1sCAoSLEFGMVFpcFB6ZWkwMHlENUd6b0ROYVplcnFxOWVvcG4ybnRYdkF1VS1HTS1a!2m2!1d34.669894193236!2d135.46309258115!3f13.436730133372464!4f-5.955435915357995!5f0.7820865974627469" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 </div>
 <div class="view-btn">
 <a href="https://goo.gl/maps/EEngFh4r1echTtSb7"><i class="fas fa-chevron-circle-right"></i>　ストリートビューを見る</a>
