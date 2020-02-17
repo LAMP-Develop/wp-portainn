@@ -4,7 +4,6 @@ Author: Linoa
 Description: ポルタイン様専用のWordPressテーマ
 Version: 1.0.0
 */
-
 * {
   margin: 0;
   padding: 0;
@@ -994,7 +993,7 @@ address.cr {
 
 .index-concept .inner p {
   font-size: .875rem;
-  line-height: 3;
+  line-height: 2;
 }
 
 .index-room .inner {
@@ -1355,6 +1354,7 @@ address.cr {
   .index-concept .inner p br {
     display: none;
   }
+
   .index-kv .txt {
     width: 100%;
   }
@@ -3112,5 +3112,63 @@ address.cr {
 @media(max-width:481px) {
   .news-ctn .article-ttl h2 {
     font-size: 20px
+  }
+}
+
+/*------------------------------------------------*/
+.slick-slider {
+  position: relative;
+}
+
+.slick-prev::before,.slick-next::before {
+  content: "";
+  background-image: url(./img/arrow_r.png);
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 10px;
+}
+
+.slick-next::before {
+  background-image: url(./img/arrow_l.png);
+  right: 10px;
+  left: auto;
+}
+
+.slick-prev, .slick-next {
+  left: 0;
+  z-index: 99;
+  position: absolute;
+  top: 30%;
+}
+
+.slick-next {
+  right: 0;
+  left:auto
+}
+
+@media(max-width:481px) {
+  .slick-prev::before,.slick-next::before {
+    left: 0px;
+  }
+
+  .slick-next::before {
+    right: 0px;
+    left: auto;
+  }
+  .slick-prev, .slick-next {
+    top: 35%;
+  }
+  .slick-next {
+    right: 0;
+    left:auto
+  }
+  .slide-guide>.slick-prev::before,.slide-guide>.slick-next::before {
+    left: -10px;
+  }
+  .slide-guide>.slick-next::before {
+    right: -10px;
+    left: auto;
   }
 }

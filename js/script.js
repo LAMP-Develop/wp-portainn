@@ -37,7 +37,7 @@ $(function() {
   if ($('.slide-near').length) {
     $('.slide-near').slick({
       autoplay: true,
-      arrows: false,
+      arrows: true,
       centerMode: true,
       slidesToShow: 5,
       responsive: [{
@@ -78,7 +78,7 @@ $(function() {
   if ($('.slide-guide').length) {
     $('.slide-guide').slick({
       autoplay: true,
-      arrows: false,
+      arrows: true,
       slidesToShow: 4,
       responsive: [{
         breakpoint: 961,
